@@ -1,0 +1,12 @@
+/ecosystem.config.js
+
+/.venv
+/.direnv
+
+/.env
+/env/**/*.env
+
+__pycache__
+.ipynb_checkpoints
+
+/.tests
