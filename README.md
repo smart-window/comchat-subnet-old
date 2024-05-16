@@ -78,7 +78,7 @@ pip install communex --upgrade
    Proceed with running the miner:
 
    ```sh
-    comx module serve comchat.miner.llm.LLM <your_commune_key> --subnets-whitelist <comchat_netuid> --ip 0.0.0.0
+    comx module serve comchat.miner.llm.LLM <your_commune_key> --subnets-whitelist 6 --ip 0.0.0.0
    ```
 
    The **ip** is passed as **0.0.0.0** to accept **outside connections**, since the default,
@@ -95,13 +95,13 @@ pip install communex --upgrade
    Example using pm2
 
    ```sh
-   pm2 start "comx module serve comchat.miner.llm.LLM <your_commune_key> --subnets-whitelist <comchat_netuid> --ip 0.0.0.0" --name <name>
+   pm2 start "comx module serve comchat.miner.llm.LLM <your_commune_key> --subnets-whitelist 6 --ip 0.0.0.0" --name <name>
    ```
 
 3. Finally register the module on the ComChat subnet:
 
     ```sh
-    comx module register <name> <your_commune_key> --ip <your-ip-address> --port <port> --netuid <comchat_netuid>  
+    comx module register <name> <your_commune_key> --ip <your-ip-address> --port <port> --netuid 6  
     ```
 
 ### Note
@@ -142,7 +142,7 @@ pip install communex --upgrade
    Note that you are required to register the validator first, this is because the validator has to be on the network in order to set weights. You can do this by running the following command:
 
    ```sh
-   comx module register <name> <your_commune_key> --netuid <comchat_netuid>
+   comx module register <name> <your_commune_key> --netuid 6
    ```
 
 5. Serve the validator
