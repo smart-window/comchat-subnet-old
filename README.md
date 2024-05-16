@@ -78,7 +78,7 @@ pip install communex --upgrade
    ```
 
    The **ip** is passed as **0.0.0.0** to accept **outside connections**, since the default,
-   **127.0.0.1** accepts **only local** connections. ComChat has the **netuid 17**. Key is a name of your commune wallet/key.
+   **127.0.0.1** accepts **only local** connections. ComChat has the **netuid 6**. Key is a name of your commune wallet/key.
    If you don't have a wallet, generate one by running
 
    ```sh
