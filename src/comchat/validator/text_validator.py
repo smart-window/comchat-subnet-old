@@ -179,7 +179,7 @@ class TextValidator(Module):
         if not embedder:
             embedder = OpenAIEmbedder(OpenAISettings())  # type: ignore
         self.embedder = embedder
-        self.val_model = "openai/gpt-4-32k"
+        self.val_model = "claude-3-opus-20240229"
         self.call_timeout = call_timeout
         self.provider = provider
 
