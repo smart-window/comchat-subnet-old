@@ -63,6 +63,7 @@ pip install communex --upgrade
     GEMINI_API_KEY="<your-gemini-api-key>"
    ```
 
+   Validators will randomly pick the service to ping the miners.
 2. Serve the miner:
 
    Make sure to be located in the root of comchat repository
