@@ -63,10 +63,6 @@ pip install communex --upgrade
     GEMINI_API_KEY="<your-gemini-api-key>"
    ```
 
-   Alternatively, you can set up those values as enviroment variables.
-   Note that you just need to provide the key to the provider that you're going
-   to use
-
 2. Serve the miner:
 
    Make sure to be located in the root of comchat repository
