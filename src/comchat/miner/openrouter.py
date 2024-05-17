@@ -36,6 +36,9 @@ class OpenrouterModule():
 
         json_response: dict[Any, Any] = response.json()
         
+        if "error" in json_response:
+            raise Exception(json_response["error"])
+            
         answer = json_response["choices"][0]
 
         return answer["message"]["content"], ""
