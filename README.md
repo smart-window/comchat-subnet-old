@@ -1,4 +1,4 @@
-# ComChat
+# ComChat Subnet
 
 Welcome to the ComChat Subnet, where together we'll shape the future of AI services on the Commune Blockchain Network!
 
@@ -69,7 +69,7 @@ pip install communex --upgrade
    Make sure to be located in the root of comchat repository
 
    ```sh  
-   cd comchat
+   cd comchat-subnet
    ```
 
    Proceed with running the miner:
