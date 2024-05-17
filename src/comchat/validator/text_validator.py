@@ -211,7 +211,6 @@ class TextValidator(Module):
                 claude_settings = OpenrouterSettings()  # type: ignore
                 claude_settings.temperature = settings.temperature
                 claude_settings.max_tokens = settings.max_tokens
-                claude_settings.model = self.val_model
                 claude = OpenrouterModule(claude_settings)
         
         ig = InputGenerator(claude)
